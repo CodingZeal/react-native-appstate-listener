@@ -1,0 +1,55 @@
+{
+  "name": "react-native-appstate-listener",
+  "version": "1.0.0",
+  "description": "Adapt React Native AppState changes to the React component lifecycle",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "format": "prettier --write '**/*.js'",
+    "lint": "eslint '**/*.js' --max-warnings 0",
+    "precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingZeal/react-native-appstate-listener.git"
+  },
+  "author": "Randy Coulman <randy@codingzeal.com> (http://open.codingzeal.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodingZeal/react-native-appstate-listener/issues"
+  },
+  "homepage": "https://github.com/CodingZeal/react-native-appstate-listener#readme",
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "appstate",
+    "ios",
+    "android"
+  ],
+  "lint-staged": {
+    "*.js": "prettier --list-different"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-config-zeal": "^1.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-react-native": "^2.3.2",
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.0",
+    "prettier": "^1.4.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.2"
+  }
+}
