@@ -1,3 +1,5 @@
+![Alt text](docs/images/react-state-listener-logo1x.png)
+
 # AppStateListener
 
 [![npm version](https://badge.fury.io/js/react-native-appstate-listener.svg)](https://www.npmjs.com/package/react-native-appstate-listener)
